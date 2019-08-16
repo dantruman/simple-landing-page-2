@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-image: linear-gradient(to bottom, #27272759, #3d3d3d44),
+    url("http://source.unsplash.com/1SAnrIxw5OY");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 5px 0;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  border-bottom: 1px solid #2060eb;
+}
+nav h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+nav ul li a:hover {
+  color: #2060eb;
+  cursor: pointer;
+}
+
+section {
+  padding-top: 10vh;
+  height: 60vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  margin-top: 100px;
+  line-height: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.hero button {
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  border: none;
+  background: #2060eb;
+  color: white;
+  border-radius: 10px;
+}
+
+.hero button:hover {
+  background: white;
+  color: #2060eb;
+  cursor: pointer;
+}
+
+footer {
+  border-top: 1px solid #2060eb;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2vh;
+  background: linear-gradient(to top, #444, #222);
+  text-align: center;
+}
